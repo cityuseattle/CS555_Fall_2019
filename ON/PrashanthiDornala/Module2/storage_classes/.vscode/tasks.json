@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build hello world",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "count_me_in", "count_me_in.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
