@@ -8,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "access.cpp",
+                "sanity_check.cpp",
                 "-o",
-                "access.out",
+                "sanity_check.out",
                 "--debug"
             ],
             "group": {

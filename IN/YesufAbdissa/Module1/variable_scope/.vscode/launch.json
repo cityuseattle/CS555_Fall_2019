@@ -5,7 +5,7 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/access.out",
+            "program": "${workspaceFolder}/scope.out",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",

@@ -8,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "access.cpp",
+                "variables.cpp",
                 "-o",
-                "access.out",
+                "variables.out",
                 "--debug"
             ],
             "group": {

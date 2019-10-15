@@ -8,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "access.cpp",
+                "scope.cpp",
                 "-o",
-                "access.out",
+                "scope.out",
                 "--debug"
             ],
             "group": {
