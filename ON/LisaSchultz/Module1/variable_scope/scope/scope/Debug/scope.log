@@ -1,0 +1,3 @@
+﻿  scope.cpp
+c:\users\lisaschultz\cs555_fall_2019\on\lisaschultz\module1\variable_scope\scope\scope\scope.cpp(15): warning C4101: 'c': unreferenced local variable
+  scope.vcxproj -> C:\Users\LisaSchultz\CS555_FALL_2019\ON\LisaSchultz\Module1\variable_scope\scope\Debug\scope.exe
