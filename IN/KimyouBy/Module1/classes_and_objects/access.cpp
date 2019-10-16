@@ -11,7 +11,7 @@ class Box {
 
 int main() {
    Box Box1;                // Declare Box1 of type Box
-   Box KimUBox;             // add your code below in this line
+   Box KimYuBox;             // add your code below in this line
    double volume = 0.0;     // Store the volume of a box here
 
    // box 1 specification
@@ -20,16 +20,16 @@ int main() {
    Box1.breadth = 7.0;
 
    // KimU box specification
-   KimUBox.height = 10.0;
-   KimUBox.length = 11.0;
-   KimUBox.breadth = 12.0;
+   KimYuBox.height = 10.0;
+   KimYuBox.length = 11.0;
+   KimYuBox.breadth = 12.0;
 
    // volume of box 1
    volume = Box1.height * Box1.length * Box1.breadth;
    cout << "Volume of Box1 : " << volume <<endl;
 
-   // volume of KimU box
-   volume = KimUBox.height * KimUBox.length * KimUBox.breadth;
+   // volume of KimYu box
+   volume = KimYuBox.height * KimYuBox.length * KimYuBox.breadth;
    cout << "Volume of KimU Box : " << volume <<endl;
 
    return 0;
