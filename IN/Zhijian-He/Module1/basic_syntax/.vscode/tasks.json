@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "access",
-                "access.cpp"
+                "fundamentals",
+                "fundamentals.cpp"
             ],
             "group": {
                 "kind": "build",

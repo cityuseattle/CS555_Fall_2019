@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "access",
-                "access.cpp"
+                "scope",
+                "scope.cpp"
             ],
             "group": {
                 "kind": "build",

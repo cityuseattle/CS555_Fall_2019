@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "access",
-                "access.cpp"
+                "primitives",
+                "primitives.cpp"
             ],
             "group": {
                 "kind": "build",
