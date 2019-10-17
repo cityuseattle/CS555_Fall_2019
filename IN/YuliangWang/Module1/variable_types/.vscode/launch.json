@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/cariables.exe",
+            "program": "${workspaceFolder}/area.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",

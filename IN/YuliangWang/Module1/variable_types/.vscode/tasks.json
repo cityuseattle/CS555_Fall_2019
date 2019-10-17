@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "variables",
-                "variables.cpp"
+                "area",
+                "area.cpp"
             ],
             "group": {
                 "kind": "build",
