@@ -12,5 +12,5 @@ int main() {
    c = "C";
    ch = "S";
    cout << c + ch + to_string(k);
-   // return 0;           
+   return 0;           
 }             
