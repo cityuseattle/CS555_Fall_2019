@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "filename",
-                "filename.cpp"
+                "hello",
+                "hello.cpp"
             ],
             "group": {
                 "kind": "build",
