@@ -5,9 +5,9 @@ int main()
 {
     int n = 10;
 
-    while(n>0) {
+    while(n>2) {
         cout << n << ", ";
-        --n;
+        n = n-2;
     }
     cout << "liftoff!\n";
 }
