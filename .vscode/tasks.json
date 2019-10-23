@@ -1,43 +1,22 @@
 {
-
     "version": "2.0.0",
-    
     "tasks": [
         {
-            "label": "build & debug file",
+            "label": "build hello world",
             "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
                 "-o",
-                "${fileBasenameNoExtension}",
-                "${file}"
+                "filename",
+                "filename.cpp",
+                "yourfilename.cpp",
+                "yourfilename.out"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
-        },
-        {
-            "label": "build & run file",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "-o",
-                "${fileBasenameNoExtension}",
-                "${file}"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
+            }
         }
     ]
-    
-    }
+}
