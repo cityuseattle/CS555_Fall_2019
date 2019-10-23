@@ -13,4 +13,4 @@ int main() {
    cout << c <<endl;
    cout << g;
    return 0;           
-}             
+}      
