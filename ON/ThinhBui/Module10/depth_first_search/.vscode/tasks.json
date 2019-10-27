@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "C:/Mingw-w64/mingw32/bin/g++.exe",
+            "args": [
+                "-g",
+                
+                "-o",
+                "df_search",
+                "df_search.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
