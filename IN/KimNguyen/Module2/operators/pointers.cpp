@@ -10,6 +10,7 @@ int main() {
     mypointer = &secondvalue;
     *mypointer = 20;
     *mypointer += 20;
+    
     cout << "firstvalue is " << firstvalue << '\n';
     cout << "second value is " << secondvalue << endl;
     return 0;
