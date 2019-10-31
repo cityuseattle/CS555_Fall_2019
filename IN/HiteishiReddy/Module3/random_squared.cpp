@@ -5,13 +5,17 @@
 using namespace std;
 
 int main(){
-  int i, j;
+  int i, j, num; 
+  double result;
   srand( (unsigned)time(NULL));
   for( i = 0; i < 5; i++){
-      j = (rand() * i)+1;
+      j = (rand()% 20 )+1;
       cout<<"Random Number:" << j << endl;
+num = sqrt(j);
+cout<<"Random num: " << floor(num)<< endl;
 
   }
+
   return 0;  
 }
 
