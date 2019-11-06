@@ -7,7 +7,7 @@
 using namespace std;
 
 template <class T>
-class Steck {
+class Stack {
     private:
         vector<T> elems;;
 
@@ -50,8 +50,8 @@ int main() {
 
         intStack.push(7);
         cout <<intStack.top() << std::endl;
-        stringStack.pop();
-        stringStack.pop();
+        strngStack.pop();
+        strngStack.pop();
     }   catch(exception const& ex) {
         cerr << "Exception: " << ex.what() << endl;
         return -1;

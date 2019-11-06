@@ -9,7 +9,14 @@ int main() {
     cout << "vector size = " <<vec.size() << endl;
 
     for(i = 0; i < 5; i++) {
+            vec.push_back(i);
+        }
+        
+    cout << "extended vector size = " <<vec.size() << endl;
+
+    for(i = 0; i < 5; i++) {
         cout << "value of vec [" << i << "] = " << vec[i] << endl;
+        
     }
 
     vector<int>::iterator v = vec.begin();
