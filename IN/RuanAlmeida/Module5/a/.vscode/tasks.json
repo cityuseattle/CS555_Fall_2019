@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "NumberGuessingGame",
-                "NumberGuessingGame.cpp"
+                "order_arrays",
+                "order_arrays.cpp"
             ],
             "group": {
                 "kind": "build",

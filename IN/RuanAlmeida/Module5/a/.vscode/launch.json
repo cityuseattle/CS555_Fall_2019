@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/NumberGuessingGame.exe",
+            "program": "${workspaceFolder}/order_arrays.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
