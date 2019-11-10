@@ -5,7 +5,7 @@
         "label": "build hello world",
         "type": "shell",
         "command": "g++",
-        "args": ["-g", "-o", "Area_main", "Area_main.cpp", "Area.cpp"],
+        "args": ["-g", "-o", "vector", "vector.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true
