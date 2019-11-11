@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/order_arrays.exe",
+            "program": "${workspaceFolder}/new_delete.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",

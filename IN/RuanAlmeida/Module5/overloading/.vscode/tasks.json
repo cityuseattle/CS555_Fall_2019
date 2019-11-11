@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "order_arrays",
-                "order_arrays.cpp"
+                "overload_print",
+                "overload_print.cpp"
             ],
             "group": {
                 "kind": "build",
