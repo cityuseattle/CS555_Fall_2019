@@ -8,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "findTarget.cpp",
+                "data_abstract.cpp",
                 "-o",
-                "findTarget.out",
+                "data_abstract.out",
                 "--debug"
             ],
             "group": {

@@ -8,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "findTarget.cpp",
+                "shape_poly.cpp",
                 "-o",
-                "findTarget.out",
+                "shape_poly.out",
                 "--debug"
             ],
             "group": {

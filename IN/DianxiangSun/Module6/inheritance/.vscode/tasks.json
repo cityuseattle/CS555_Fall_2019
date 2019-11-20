@@ -8,9 +8,9 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "findTarget.cpp",
+                "shape.cpp",
                 "-o",
-                "findTarget.out",
+                "shape.out",
                 "--debug"
             ],
             "group": {
