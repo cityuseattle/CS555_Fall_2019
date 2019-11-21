@@ -28,7 +28,7 @@ int area(){
 };
 
 class Triangle: public Shape{
-public:
+public :
 Triangle(int a = 0, int b= 0): Shape(a,b){}
 
 int area(){
