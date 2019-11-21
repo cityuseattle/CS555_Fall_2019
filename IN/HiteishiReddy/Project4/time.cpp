@@ -10,10 +10,10 @@ class Time
 
     // constructor
     public:
-    Time(int hr, int min){
+    Time(){
 
-        this->hours= hr;
-        this->minutes= min;
+        this->hours;   
+        this->minutes;
     }
 
     // to set the specified value in object
@@ -26,7 +26,8 @@ class Time
     // sum of both times 
     Time sum (Time T)
     {
-        Time t(0,0);
+        Time t;
+        int excesshr;
         // adding the hours  of first and second time 
         t.minutes = minutes + T.minutes;
         // adding hours of first and second time minutes 
@@ -34,6 +35,15 @@ class Time
 
         t.minutes= t.minutes%60;
         t.hours += hours + T.hours;
+
+        // printing the sum of the hours before converting it to 24 hr
+        cout << "The sum of the hours is: " << t.hours << " hrs" << endl;
+        cout << "The sum of the min is: " << t.minutes << " min" << endl;
+        // validating the houurs
+        if (t.hours > 24){
+          excesshr = abs(t.hours - 24); 
+          t.hours = t.hours - excesshr;
+        }
         return t;
 
     }
@@ -42,19 +52,19 @@ class Time
     void showtime()
     {
         cout<< hours << " hours: " << endl;
-        cout << minutes << "min: " << endl;
+        cout << minutes << " min: " << endl;
     }
     };
 
 // main 
 int main()
 {
-    Time T1(3,0);
-    Time T2(12,3);
-    Time T3 (5,2);
+    Time T1;
+    Time T2;
+    Time T3;
     // method call
-	T1.settime(1,02);
-	T2.settime(12,15);
+	T1.settime(23,40);
+	T2.settime(1,20);
 	T3=T1.sum(T2);
 
     // print statement to display time 
