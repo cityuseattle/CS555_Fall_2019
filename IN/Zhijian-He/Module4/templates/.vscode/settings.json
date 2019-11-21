@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "C:\\Program Files (x86)\\Python37-32\\python.exe",
+    "files.associations": {
+        "iostream": "cpp",
+        "cstring": "cpp"
+    }
+}

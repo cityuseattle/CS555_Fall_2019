@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build area",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "class_temp", "class_temp.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }

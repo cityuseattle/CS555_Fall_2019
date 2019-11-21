@@ -1,0 +1,21 @@
+#include<iostream>
+#include<cmath>
+#include<ctime>
+#include<cstdlib>
+using namespace std;
+
+int main(){
+    int i,j;
+
+    srand((unsigned)time(NULL));
+    cout << "rand Seed: "<< time(NULL)<<'\n';
+
+    for(i=0; i<5;i++){
+        j = (rand()%20) + 1;
+        cout << "Random Number: " << floor(sqrt(j))<<endl;
+
+
+    }
+
+    return 0;
+}

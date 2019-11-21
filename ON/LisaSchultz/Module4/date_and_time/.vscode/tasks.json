@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build area",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "curr_date", "curr_date.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
