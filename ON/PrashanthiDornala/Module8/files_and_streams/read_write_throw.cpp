@@ -14,8 +14,8 @@ int main()
     cin.getline(data,100);
 
     outfile<<data<<endl;
-
-    cout<<"Enter your age: ";
+ 
+    cout<<"Enter your age : ";
     cin>>data;
     cin.ignore();
 
