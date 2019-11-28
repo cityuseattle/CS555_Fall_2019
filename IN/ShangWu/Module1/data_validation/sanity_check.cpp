@@ -12,7 +12,7 @@ int main() {
         while (isStaying == "n") {
             cout << "Invalid answer, re-enter: ";
             cin >> isStaying;
-        }
+        }it
         cout << "Ok. You are a good student." << endl;
     }
     return 0;
