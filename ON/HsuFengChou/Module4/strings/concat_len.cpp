@@ -1,0 +1,21 @@
+#include <iostream>
+#include <Cstring>
+
+using namespace std;
+
+main(){
+    char str1[10] = "Hello";
+    char str2[10] = "World";
+
+   
+
+    //concatenates str1 and str2
+    strcat(str1, str2);
+    cout << "strcat(str1, str2): " << str1 << endl;
+
+    strlen(str1);
+    cout << "strlen(str1): " << strlen(str1) << endl;
+
+    return 0;
+
+}
