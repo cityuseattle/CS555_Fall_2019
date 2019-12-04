@@ -30,7 +30,7 @@ int main () {
      ifstream infile;
      infile.open("afile.dat");
 
-     cout << "Reading from the file" << endl;
+     cout << "Reading from the file in read mode" << endl;
      infile >> data;
 
      // write the data at the screen
@@ -42,7 +42,7 @@ int main () {
 
      //close the opened file
      infile.close();
-     
+
       return 0;
 
 }
