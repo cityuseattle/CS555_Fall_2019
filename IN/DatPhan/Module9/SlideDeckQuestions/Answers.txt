@@ -1,0 +1,41 @@
+Author: Dat Phan
+Class: CS555_02_IN C++ for Programmers 
+
+
+
+
+Question 1:
+
+If we enter a string that is a lot longer than the allocated size of the array, we get a segmentation error; however, it doesn't happen to the string variable in the first program, since that variable automatically scales its size as needed.
+
+
+
+
+Question 2: 
+
+According to cplusplus.com ("String Begin", n.d.; "Random Access Iterator", n.d.), string::iterator is a random access iterator and random access iterators can be compared with inequality relational operators (<, >, <= and >=). Therefore, it is perfectly fine to use the greater sign while looping through using the string::iterator. 
+
+References:
+cplusplus.com (n.d.). String Begin. Retrieved from http://www.cplusplus.com/reference/string/string/begin/
+cplusplus.com (n.d.). Random Access Iterator. Retrieved from http://www.cplusplus.com/reference/iterator/RandomAccessIterator/
+
+
+
+
+Question 3:
+
+There are two problems in the code segment:
+
+1) No space for null character: The last element of a character array in C++ is reserved for the null character so the length of the copied string should be less than the length of the array. In this case, since the length of the array is 50, the length of the copied string should be 49 at maximum.
+
+2) Missing null character: since the copy function does not append a null character at the end of the copied string, we need to manually append it ("String Copy", n.d.).
+
+To fix the above two problems, the code should updated as below:
+
+char myCharStr[50];
+size_t length = myStr2.copy(myCharStr, 49, 0);
+myCharStr[length] = '\0';
+cout << "copied string is " << myCharStr << endl;
+
+References:
+cplusplus.com (n.d.). String Copy. Retrieved from http://www.cplusplus.com/reference/string/string/copy/
