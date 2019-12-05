@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "blackjack",
-                "blackjack.cpp"
+                "is_leap_year",
+                "is_leap_year.cpp"
             ],
             "group": {
                 "kind": "build",

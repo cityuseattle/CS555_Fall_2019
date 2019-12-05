@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/blackjack.exe",
+            "program": "${workspaceFolder}/years_months_days.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
