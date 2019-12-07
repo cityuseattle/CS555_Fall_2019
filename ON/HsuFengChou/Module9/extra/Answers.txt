@@ -1,0 +1,30 @@
+QUESTION 1. What is the difference in the output message when using string vs. character array?
+    Answer 1: 
+    In example 2, mystr can be printed out, but myStrArray can not because the input is "myStrArray2" and the output is "myStrArray".
+    Character array can only be printed out when intput and output have the same variables.
+
+    In example 3, the program is able to display mystr1 and mystr2.
+    if(!strcmp(myCharStr1, myCharStr2)) is checking the if both character string are equal or NULL character is found.
+
+    The main difference is that the character array can not be operated with standard operator, but array object can.
+
+QUESTION 2: Does "it < myStr2.end()" make sense for iteration? Why or Why not?
+    Answer2: 
+    No it does not. the iterator is like an object not a number. You can't use the iterator to past the end of the range.
+    The loop in iterator just like pointing the first character to the end of the character.
+    You can't treat the iterator equally like the other loops that has commonly used. 
+
+QUESTION 3: What is wrong with this code?
+    Answer3:
+    When using copy() function, the range is out of the character array [50] although the len is setting up to [50].
+    Therefore, the output is trying to display more characters which is not in the string.
+    declaring higher capacity of the character array or decrese the length in copy() function can solve the problem.
+
+QUESTION 4. How would you modify the code above using ">>" operator to count the # of words and remove the space?
+    Answer4:
+    cout <<  endl;
+    cout << "Printing: " << words2.str() << endl;
+    cout << "After using >> operator to extract spaces: ";
+    while(words2 >> input_string){
+        cout << input_string;
+    }
