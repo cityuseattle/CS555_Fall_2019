@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  variables.cpp
+c:\users\lisaschultz\cs555_fall_2019\on\lisaschultz\module1\variable_types\variables\variables\variables.cpp(12): warning C4101: 'salary': unreferenced local variable
+c:\users\lisaschultz\cs555_fall_2019\on\lisaschultz\module1\variable_types\variables\variables\variables.cpp(12): warning C4101: 'f': unreferenced local variable
+c:\users\lisaschultz\cs555_fall_2019\on\lisaschultz\module1\variable_types\variables\variables\variables.cpp(10): warning C4101: 'j': unreferenced local variable
+c:\users\lisaschultz\cs555_fall_2019\on\lisaschultz\module1\variable_types\variables\variables\variables.cpp(10): warning C4101: 'i': unreferenced local variable
+c:\users\lisaschultz\cs555_fall_2019\on\lisaschultz\module1\variable_types\variables\variables\variables.cpp(13): warning C4101: 'd': unreferenced local variable
+  variables.vcxproj -> C:\Users\LisaSchultz\CS555_FALL_2019\ON\LisaSchultz\Module1\variable_types\variables\Debug\variables.exe

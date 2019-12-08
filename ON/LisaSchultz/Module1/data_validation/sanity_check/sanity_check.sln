@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sanity_check", "sanity_check\sanity_check.vcxproj", "{C01CFD11-5903-4150-9C7F-BF4322C3F914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Debug|x64.ActiveCfg = Debug|x64
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Debug|x64.Build.0 = Debug|x64
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Debug|x86.ActiveCfg = Debug|Win32
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Debug|x86.Build.0 = Debug|Win32
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Release|x64.ActiveCfg = Release|x64
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Release|x64.Build.0 = Release|x64
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Release|x86.ActiveCfg = Release|Win32
+		{C01CFD11-5903-4150-9C7F-BF4322C3F914}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98D05175-1EE5-4232-806C-B045FB2BC579}
+	EndGlobalSection
+EndGlobal
