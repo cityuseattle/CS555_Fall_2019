@@ -1,0 +1,7 @@
+1) It depends on what variable is used. If myStrArray is used then the char array is blank, and if myStrArray2 is used then it matches the string.
+
+2) Yes because it allows the program to iterate over the characters until the end of the string
+
+3) It doesnt remove the values already in myStr2, so myStr2 ends up being 2 different strings crammed together
+
+4) Not sure
